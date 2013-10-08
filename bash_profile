@@ -72,3 +72,5 @@ _expand()
 # Enable bash completion for todo.sh's alias
 complete -F _todo t
 
+# Change Terminal prompt
+export PS1="\u@\h:\W\$ "
