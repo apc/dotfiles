@@ -73,4 +73,4 @@ _expand()
 complete -F _todo t
 
 # Change Terminal prompt
-export PS1="\u@\h:\W\$ "
+export PS1="\w \$ "
