@@ -73,4 +73,4 @@ _expand()
 complete -F _todo t
 
 # Change Terminal prompt
-export PS1="\w \$ "
+export PS1="\[$(tput bold)\]\[$(tput setaf 5)\]\\$ \[$(tput sgr0)\]"
