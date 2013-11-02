@@ -39,7 +39,7 @@ eval "$(rbenv init -)"
 # export PATH="$PATH:/Users/apc/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1:/Users/apc/.gem/ruby/1.9.1"
 
 # Not sure what for
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:/usr/texbin"
 
 # Pandoc?
 export PATH="$PATH:/Users/apc/.cabal/bin"
